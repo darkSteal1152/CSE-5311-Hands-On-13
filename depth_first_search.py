@@ -40,3 +40,4 @@ g.add_edge(7, 8)
 
 for i in range(9):
     g.dfs(i)
+    print("")
