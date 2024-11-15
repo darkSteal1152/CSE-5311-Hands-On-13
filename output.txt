@@ -1,0 +1,35 @@
+outputs for:
+
+1. topological_sort.py
+Topological Sort: [0, 1, 2, 3, 4, 5, 6, 7, 8]
+
+2. depth_first_search.py
+DFS traversal starting from vertex 0
+0 1 2 3 4 5 6 7 8 
+DFS traversal starting from vertex 1
+1 2 3 4 5 6 7 8 
+DFS traversal starting from vertex 2
+2 3 4 5 6 7 8 
+DFS traversal starting from vertex 3
+3 4 5 6 7 8 
+DFS traversal starting from vertex 4
+4 5 6 7 8 
+DFS traversal starting from vertex 5
+5 6 7 8 
+DFS traversal starting from vertex 6
+6 7 8 
+DFS traversal starting from vertex 7
+7 8 
+DFS traversal starting from vertex 8
+8 
+
+3. kruskals_algorithm.py
+Edges in the Minimum Spanning Tree:
+6 -- 7 == 1
+2 -- 8 == 2
+5 -- 6 == 2
+0 -- 1 == 4
+2 -- 5 == 4
+2 -- 3 == 7
+0 -- 7 == 8
+3 -- 4 == 9
